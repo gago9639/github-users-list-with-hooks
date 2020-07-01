@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+.App {
+    max-width: 500px
+}
+
+.app-body {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.app-header {
+    width: 500px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin: auto;
+}
+
+.search-box {
+    width: 100%;
+    border-bottom: 1px solid rgb(173, 173, 173);
+    border-radius: .25rem;
+    margin: 5px 0px;
+}
+
+.search-input {
+    height: 100%;
+    border: none;
+}
+
+    .search-input:focus { 
+        box-shadow: none;
+    }
+
+.back-button {
+    cursor: pointer;
+}
+
+.User-list {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.card {
+    width: 100%;
+}
+
+.user-info-display {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.login-followers-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button-bar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.btn-action {   
+    width: 80px;
+    height: 30px;
+    font-size: 12px;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0px 10px;
+}
+
+.row-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.zero-padding {
+    padding: 0;
+}
+
+.row-75 {
+    height: 75%;
+}
+
+.row-25 {
+    height: 25%;
+}
+
+@media (max-width: 575.98px) { 
+    .App {
+        width: 100%;
+    }
+
+    .app-header {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+ }

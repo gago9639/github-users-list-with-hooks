@@ -1,0 +1,38 @@
+.About-user {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    padding: 0 30px;
+}
+
+.about-user-header-cap {
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.about-user-body {
+    height: calc(100vh - 50px);
+    margin: 0;
+}
+
+.user-name-location {
+    font-size: 23px;
+}
+
+.user-image {
+    height: 200px;
+    margin: 25px;
+}
+
+.main-info {
+    align-items: center;
+}
+
+.more-info-text {
+    font-size: 18px;
+    font-style: italic;
+    border-bottom: 1px solid #cecece;
+    padding: 5px;
+}
+
